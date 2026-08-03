@@ -111,3 +111,13 @@ Copy `.env.example` to `.env.local` and update remote URLs for non-local environ
 VITE_CMS_REMOTE_URL=http://localhost:3001/assets/remoteEntry.js
 VITE_ANALYTICS_REMOTE_URL=http://localhost:3002/assets/remoteEntry.js
 ```
+
+## GitHub Pages Deployment
+
+This repo includes `.github/workflows/deploy-pages.yml` to auto-deploy on every push to `main`.
+
+Expected production URLs:
+
+- Shell app: `https://ejot-mfatima.github.io/shell-app/`
+- CMS remote entry: `https://ejot-mfatima.github.io/cms-app/assets/remoteEntry.js`
+- Analytics remote entry: `https://ejot-mfatima.github.io/analytics-app/assets/remoteEntry.js`
